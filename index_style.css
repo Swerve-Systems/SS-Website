@@ -36,6 +36,7 @@ header li a {
 
 header li a:hover:not(.active){
     background-color: #111;
+    color: rgb(233, 20, 119);
     text-decoration: none;
 
 }
