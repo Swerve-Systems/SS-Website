@@ -44,9 +44,9 @@ header li a:hover:not(.active){
 
 header input[type=text] {
   float: right;
-  padding: 6px;
+  padding: 0;
   border: none;
-  margin: 15px;
+  margin: 0;
   font-size: 17px;
 }
 
