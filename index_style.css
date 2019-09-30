@@ -22,6 +22,8 @@ header li a {
 
 body {
     height: 125vh;
+    background-image: url('http://i.imgur.com/xu8rtkm.jpg');
+    background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;
     padding: 30px;
