@@ -1,6 +1,14 @@
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
 header{
     color: magenta;
-    background-color: rgb(61, 56, 56);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     top: 0;
     left: 0;
@@ -11,17 +19,23 @@ header{
 }
 
 header li {
-    display: inline;
-    margin: 20px;
+    float: left;
 }
 
 header li a {
+    display: block;
     color: rgb(233, 20, 119);
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-header li a:hover{
-    background-color: black;
+.active{
+    background-color: #4CAF50
+}
+
+header li a:hover:not(.active){
+    background-color: #111;
 }
 
 body {
