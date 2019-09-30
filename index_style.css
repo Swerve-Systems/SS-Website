@@ -1,6 +1,6 @@
 header{
     color: magenta;
-    background-color: white;
+    background-color: rgb(61, 56, 56);
     position: fixed;
     top: 0;
     left: 0;
@@ -16,8 +16,12 @@ header li {
 }
 
 header li a {
-    color: purple;
+    color: rgb(233, 20, 119);
     text-decoration: none;
+}
+
+header li a:hover{
+    background-color: black;
 }
 
 body {
@@ -30,5 +34,5 @@ body {
 }
 
 main{
-    color: rgba(201, 122, 135, 0.904);
+    color: rgba(234, 12, 241, 0.904);
 }
