@@ -1,0 +1,32 @@
+header{
+    color: magenta;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    margin: 20px;
+}
+
+header li a {
+    color: purple;
+    text-decoration: none;
+}
+
+body {
+    height: 125vh;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main{
+    color: rgba(201, 122, 135, 0.904);
+}
