@@ -42,6 +42,15 @@ header li a:hover:not(.active){
 
 }
 
+header input[type=text] {
+    float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
 body {
     height: 125vh;
     background-image: url('http://i.imgur.com/xu8rtkm.jpg');
