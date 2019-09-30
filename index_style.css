@@ -43,7 +43,7 @@ header li a:hover:not(.active){
 }
 
 header input[type=text] {
-    float: right;
+  float: right;
   padding: 6px;
   border: none;
   margin: 15px;
