@@ -1,11 +1,11 @@
-header ul {
+/*header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: rgb(0, 0, 0);
   }
-
+*/
 header{
     color: magenta;
     background-color: rgb(0, 0, 0);
@@ -19,7 +19,7 @@ header{
     box-shadow: 0 0 25px 0 black;
 }
 
-header li {
+/*header li {
     float: left;
 }
 
@@ -36,7 +36,7 @@ header li a:hover{
     color: rgb(233, 20, 119);
     text-decoration: none;
 
-}
+}*/
 
 /*header input[type=text] {
   float: right;
