@@ -6,7 +6,7 @@
     background-color: rgb(0, 0, 0);
   }*/
 
-header{
+.container{
     color: magenta;
     position: fixed;
     top: 0;
